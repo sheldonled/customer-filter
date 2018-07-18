@@ -7,7 +7,12 @@
     "test": "babel-node node_modules/jasmine/bin/jasmine ./api/tests/**/*.js",
     "start": "babel-node server.js",
     "build": "webpack --mode production --config ./frontend/webpack.config.js",
-    "lint": "eslint -c ./frontend/.eslintrc ./api/src/**/*.js ./frontend/src/**/*.js"
+    "lint": "eslint -c ./frontend/.eslintrc ./api/src/**/*.js ./frontend/src/**/*.js",
+    "heroku-postbuild": "npm run build"
+  },
+  "engines": {
+    "npm": "6.x",
+    "node": "10.x"
   },
   "repository": {
     "type": "git",
