@@ -1,0 +1,19 @@
+{
+  "name": "customer-finder",
+  "version": "1.0.0",
+  "description": "Filter customer list by distance from a determined point",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheldonled/customer-finder.git"
+  },
+  "author": "Sheldon Led <sheldonled@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sheldonled/customer-finder/issues"
+  },
+  "homepage": "https://github.com/sheldonled/customer-finder#readme"
+}
