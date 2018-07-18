@@ -4,7 +4,7 @@ import bodyParser from 'body-parser';
 import api from './api/index';
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }))
