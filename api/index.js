@@ -32,6 +32,10 @@ const getCustomers = (req, res) => {
         distance
           .filterTargetsWithinDistance(referenceObj, customers, req.query.distance)
             .sort((c1, c2) => c1.user_id - c2.user_id)
+            .map(customer => {
+              customer.dist = distance.getDistanceBetween(referenceObj, customer);
+              return customer;
+            })
       );
     })
     .catch(error => res.send(error));
