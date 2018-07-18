@@ -1,0 +1,23 @@
+
+.app__form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form__reference-input,
+.form__distance-input {
+  display: flex;
+  flex-flow: column;
+
+  label {
+    line-height: 2rem;
+  }
+  input, select {
+    height: 2rem;
+    padding: .5rem;
+    &.form__input--large {
+      width: 13rem;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+$subtitle-border-color: #fafafa;
+
+.app {
+  width: 100%;
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.app__title {
+  font-size: 2rem;
+  line-height: 3rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+.app__subtitle {
+  font-size: 1.5rem;
+  line-height: 3rem;
+  margin: 0;
+  border-bottom: 1px solid $subtitle-border-color;
+}
+
+.app__message {
+  height: 1rem;
+  margin: 1rem 0;
+  text-align: center;
+}

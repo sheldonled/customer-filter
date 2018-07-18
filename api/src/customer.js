@@ -1,3 +1,5 @@
+/* global __dirname */
+
 import { readFile } from "fs";
 import { join } from "path";
 

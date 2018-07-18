@@ -1,4 +1,5 @@
 import express from 'express';
+import {join} from 'path';
 import bodyParser from 'body-parser';
 import api from './api/index';
 
@@ -15,7 +16,8 @@ app.get("/api/customers", api.getCustomers);
 app.get("/api/customer/:id", api.getCustomer);
 
 //App Frontend
-app.get("/", (req, res) => res.send("nothing here yet"));
+app.get("/", (req, res) => res.sendFile(join(__dirname,'frontend/dist/index.html')));
+app.get("/app.js", (req, res) => res.sendFile(join(__dirname,'frontend/dist/app.js')));
 
 //404 routes
 app.use((req, res) =>  res.status(404).send("nothing here"));

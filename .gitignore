@@ -16,6 +16,7 @@ tags
 tags.*
 vendor
 
+package-lock.json
 node_modules
 .npm
 frontend/dist
