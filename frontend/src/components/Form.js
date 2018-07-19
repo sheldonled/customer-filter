@@ -30,7 +30,8 @@ class Form extends Component {
           <div className="form__reference-input-wrapper">
             <select onChange={evt => this.handleChange('reference', evt.target.value)}>
               <option value="">Manual input</option>
-              <option value="53.3497782,-6.2610535">Spire of Dublin</option>
+              <option value="53.3497782,-6.2610535">The Spire</option>
+              <option value="53.3454325,-6.2668687">Temple Bar</option>
               <option value="53.339428,-6.257664">Intercom Office</option>
             </select>
             <input
