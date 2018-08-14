@@ -20,7 +20,7 @@ class App extends Component {
           updateCustomerList={customers => this.setState({customers})}
         />
         <p className="app__message">{this.state.message}</p>
-        <h2 className="app__subtitle" > Customer List </h2>
+        <h2 className="app__subtitle" > Customer List: </h2>
         <List
           headers={[{
               name:"ID",

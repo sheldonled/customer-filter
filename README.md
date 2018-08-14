@@ -2,6 +2,7 @@
 
 ![CircleCI](https://img.shields.io/circleci/project/github/sheldonled/customer-filter.svg)
 ![DUB](https://img.shields.io/dub/l/vibe-d.svg)
+[![CircleCI](https://circleci.com/gh/sheldonled/customer-filter.svg?style=svg)](https://circleci.com/gh/sheldonled/customer-filter)
 
 The idea of this application is to use [Great-circle distance or orthodromic distance](https://en.wikipedia.org/wiki/Great-circle_distance) algorithm to filter, in a list of customers, all customers within a given distance, from a reference point.
 
